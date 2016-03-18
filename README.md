@@ -1,2 +1,43 @@
-# venueGenerator
-Generator or venue, for random data (restaurant, bar, etc), using foursquare API. 
+venuesGenerator
+=========
+
+A small library that generates random venues from Foorsquare.
+Usefull to generate real fake data 😜.
+
+## Installation
+
+  `npm install @remirobert/venuesGenerator`
+
+## Usage
+
+    var venuesGenerator = require('@remirobert/venuesGenerator')(clientId, clientSecret);
+
+```javascript
+venuesGenerator.find({limit: 5})
+.then(function(venues) {
+})
+.catch(function(err) {
+  assert.fail(error);
+});
+```
+
+Output should be:
+
+```
+{ name: 'Jack the Horse Tavern',
+  location:
+    { address: [Object],
+      lat: 40.69993286239937,
+      lng: -73.9936975351119,
+      distabce: 531 },
+    rating: 8.7,
+    photos: [ 'https://irs1.4sqi.net/img/general/612x612/48623284_fqbPs5xy6jImyJu6U2w_xkkR7lilKCVfZEE8qSC66WU.jpg' ] }
+```
+
+## Tests
+
+  `npm test`
+
+## Contributing
+
+In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
