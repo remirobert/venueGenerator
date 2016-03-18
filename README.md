@@ -10,7 +10,7 @@ Usefull to generate real fake data 😜.
 
 ## Usage
 
-    var venuesGenerator = require('@remirobert/venuesGenerator')(clientId, clientSecret);
+    var venuesGenerator = require('@remirobert/venuesgenerator')(clientId, clientSecret);
 
 ```javascript
 venuesGenerator.find({limit: 5})
