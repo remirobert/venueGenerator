@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "promise": "^7.1.1"
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
