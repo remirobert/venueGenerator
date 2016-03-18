@@ -10,7 +10,6 @@ describe('#venueGenerator', function() {
   it('should get 5 food venues', function(done) {
     venueGenerator.find({limit: 5})
     .then(function(venues) {
-      console.log(venues);
       expect(venues).to.have.length(5);
       done();
     })

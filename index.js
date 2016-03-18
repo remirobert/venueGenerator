@@ -34,8 +34,6 @@ module.exports = function(clientId, clientSecret) {
       requestUrl += "&venuePhotos=" + optionsParameters(options, 'venuePhotos', 1);
       requestUrl += "&section=" + optionsParameters(options, 'section', "food");
 
-      console.log(options.lat);
-      console.log(requestUrl);
       return new Promise(function (resolve, reject) {
         request(requestUrl, function (error, response, body) {
           if (!error && response.statusCode == 200) {
