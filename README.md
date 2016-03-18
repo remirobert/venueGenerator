@@ -1,6 +1,8 @@
 venuesGenerator
 =========
 
+[![Build Status](https://travis-ci.org/remirobert/venuesGenerator.svg?branch=master)](https://travis-ci.org/remirobert/venuesGenerator)
+
 A small library that generates random venues from Foorsquare.
 Usefull to generate real fake data 😜.
 
