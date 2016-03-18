@@ -6,7 +6,7 @@ Usefull to generate real fake data 😜.
 
 ## Installation
 
-  `npm install @remirobert/venuesGenerator`
+  `npm install @remirobert/venuesgenerator`
 
 ## Usage
 
