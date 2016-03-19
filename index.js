@@ -51,6 +51,10 @@ module.exports = function(clientId, clientSecret) {
                   lng: venue.location.lng,
                   distabce: venue.location.distance
                 },
+                contact: {
+                  phone: venue.contact.formattedPhone
+                },
+                categorie: venue.categories[0].name,
                 rating: venue.rating,
                 photos: photos
               };
