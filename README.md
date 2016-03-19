@@ -33,6 +33,8 @@ Output should be:
       lng: -73.9936975351119,
       distabce: 531 },
     rating: 8.7,
+    contact: { phone: '(718) 722-7777' },
+    categorie: 'Middle Eastern Restaurant',
     photos: [ 'https://irs1.4sqi.net/img/general/612x612/48623284_fqbPs5xy6jImyJu6U2w_xkkR7lilKCVfZEE8qSC66WU.jpg' ] }
 ```
 
