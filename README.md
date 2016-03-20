@@ -31,7 +31,7 @@ Output should be:
     { address: [Object],
       lat: 40.69993286239937,
       lng: -73.9936975351119,
-      distabce: 531 },
+      distance: 531 },
     rating: 8.7,
     contact: { phone: '(718) 722-7777' },
     categorie: 'Middle Eastern Restaurant',
